@@ -1,0 +1,67 @@
+.gradient {
+    background: rgb(1,83,121);
+    background: radial-gradient(circle, rgba(1,83,121,1) 41%, rgba(0,212,255,1) 100%);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.background-t {
+    background: rgb(1,83,121);
+}
+
+#layanan {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: rgb(1,83,121);
+}
+
+.whatsapp {
+    position: fixed;
+    padding: 0px;
+    top: 50%;
+    right: 0;
+}
+
+.white {
+    color: white;
+}
+
+.home {
+    background: url("../img/bg.png");
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    margin-bottom: 2rem;
+    animation: animate 15s linear infinite;
+}
+.mobil {
+    position: absolute;
+    bottom: 0;
+}
+
+.mobil img {
+    height: 7.5rem;
+}
+@keyframes animate {
+    from{
+        background-position: 0 0;
+    } to {
+        background-position: 100% 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        min-height: 30vh;
+    }
+    .mobil img {
+        height: 3.5rem;
+    }
+}
