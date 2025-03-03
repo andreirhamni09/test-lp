@@ -22,11 +22,22 @@
     background: rgb(1,83,121);
 }
 
-.whatsapp {
-    position: fixed;
-    padding: 0px;
-    top: 50%;
-    right: 0;
+#layanan p {
+    font-family: 'Open Sans', sans-serif;
+}
+#layanan h4 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: rgb(1,83,121);
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 20px;
+}
+
+#layanan h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(1,83,121);
+    font-weight: bold;
 }
 
 .white {
@@ -36,9 +47,8 @@
 .home {
     background: url("../img/bg.png");
     background-size: cover;
-    min-height: 60vh;
+    min-height: 50vh;
     position: relative;
-    margin-bottom: 2rem;
     animation: animate 15s linear infinite;
 }
 .mobil {
@@ -49,6 +59,61 @@
 .mobil img {
     height: 7.5rem;
 }
+
+#contact {
+    margin-bottom: 3.5rem;
+}
+
+
+.whatsapp {
+    background-color:rgb(1,83,121);;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+#wa-button {
+    font-size:4rem; 
+    color: white;
+    padding-top: 8px;
+    padding-left: 12.5px;
+}
+
+
+#wa-button2 {
+    font-size:2rem; 
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.whatsapp:hover {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    #wa-button {
+        font-size:4.5rem; 
+        color: white;
+        padding-top: 12.5px;
+        padding-left: 17px;
+    }
+}
+
+
+.btm-wa {
+    background-color: rgb(1,83,121);
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 20px;
+}
+
+.btn-purple {
+    background-color: rgb(1,83,121);
+}
+
+
+
 @keyframes animate {
     from{
         background-position: 0 0;
